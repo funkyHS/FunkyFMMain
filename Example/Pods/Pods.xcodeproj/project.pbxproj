@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EFDC7F4591D280227F86B6947E3148 /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63DB1BD7BBA7EFCE831D7A2D8B660BD6 /* tabbar_bg@2x.png */; };
+		022F1BF80481F7E78D1630A36E840685 /* HSNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AE8C22FAB3B7F79A4F1EF7C40D5AEC /* HSNavigationController.m */; };
+		0C33DC3340269474493E0F57CB254D40 /* header_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 742337E8C92C36A686D3D0018BC3914F /* header_default@2x.png */; };
+		0EA52D2C4D2B22CC7422F59BAE7B20B8 /* FunkyFMMain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F271F536178443AA9165AB985CA5E358 /* FunkyFMMain.bundle */; };
+		0F79036C1C436CD2BA7A1F72275CA183 /* tabbar_np_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81A75E70E1B94F10E4C0376662DA0621 /* tabbar_np_play@3x.png */; };
+		110DFA517F01D8018FCC39A120AA7D7B /* zxy_icon@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB673C99091086786C8DCB0ECD5C1B4 /* zxy_icon@2x.jpg */; };
+		17594A354D6A1C4D7611371FA5CC26F0 /* HSNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861B76D45176161B4487C21E52B8F56 /* HSNavigationBar.m */; };
+		18775826852FC4752E97042CFCD93487 /* Pods-FunkyFMMain_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9530E8F407348905BFAE222AD8C9F4 /* Pods-FunkyFMMain_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F2D84E346A30C72BB20D4B4851FB3E5 /* MainModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E2A94B592BF1B7B855E006B53750BE13 /* MainModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FA27B8002DE45EC779DA7EB422A14C9 /* tabbar_np_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2A350BA57836E9EFCB4010657F11C /* tabbar_np_loop@3x.png */; };
+		20091EFCA24D8651870E8C184AF3E08B /* HSNavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B578E562A62CC82811FFA2AFE4701ED2 /* HSNavigationBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2349B3BAA8BA74A4EED6092DEF0E0686 /* FunkyFMMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DC40F8C1CC86EC5794F9F5D88F9D3FF9 /* FunkyFMMain-dummy.m */; };
+		24CB14A126D612E5538E81285A06B86F /* HSMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D06CBBF2478F085B84FCB85DCE01306 /* HSMiddleView.m */; };
+		278B324F3FB001A48A02F47A416A9EC3 /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E563666931D72B99F963DFDBB2BCF63B /* tabbar_np_loop@2x.png */; };
+		2DD11C88765869E7D1CE17EE7F4178D0 /* tabbar_np_playshadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3EA3D30442BB24B045A0F3441B32052 /* tabbar_np_playshadow@3x.png */; };
+		2EC3870F03046F81094885DF2F3D3B88 /* HSTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 825D9A5A417D1808F69C5B13F0195A66 /* HSTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F9D8B68E30EAA672D687853ED7208E7 /* HSMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 194473CE09B468BF92F1CCF3439D62AB /* HSMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CBA088D49646F0EEAC92307A5182F76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */; };
+		3DA3FCA3501829DFDCCAC962C99E1D25 /* UIView+HSLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC0EE6F419F5D4666D588BE145B407B /* UIView+HSLayout.m */; };
+		4568C543992955F4225DA9C9D32E645C /* FunkyFMBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 142C3519FD0E3F9EB8DE85E088F7B01A /* FunkyFMBase-dummy.m */; };
+		47907D55B1FA8DA19577E93E037E946E /* tabbar_np_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F1ACBC70966962CCBBFF0B645AAD78CD /* tabbar_np_shadow@3x.png */; };
+		4B50A53EF198386E0329DB8D7BC5452A /* HSNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 85B27E01FE7CD158DF785B7D77F6FE72 /* HSNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CCEEE9D38237EB619E9C6231FF73ECD /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6E9933000BC9255EA813B2ECCF8D11A /* tabbar_np_play@2x.png */; };
+		5AD555C4D354C506CB2974ED4BEDDDE9 /* FunkyFMBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E5AFCFF916D3DE6197A9164DDEA3B1F /* FunkyFMBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C65BC561200DFB4FBD6EBE69385A345 /* NSObject+HSBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D178D901350BDDCE07630D17D55B3B78 /* NSObject+HSBundle.m */; };
+		5C73CAEF655F8E6A6507EAF910D3C4F4 /* HSTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CAE4EAEDF51BC3397CBB36DEDD7DAD07 /* HSTabBar.m */; };
+		61EA37C7AF528426FCEFEEED609CC5F5 /* FunkyFMMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 92C2613BD90794E89854B1D81578B257 /* FunkyFMMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62D80F98C429CAB784976C607C9AF9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */; };
+		68F7E5CF09ED18FE1395EEC7D8D8A7EB /* tabbar_np_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4206D4F1D3FF39B38D757A54FAFD4B9F /* tabbar_np_normal@3x.png */; };
+		6DEB13FBF9D5DCDAE7EB5A5937B55D26 /* HSMiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 1BC3BFBD0002218E9DEC61F40A46E99F /* HSMiddleView.xib */; };
+		74C90B296E0EDFEC43E25521B3286301 /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3DE5576B68A408B726338DBE3DFE863 /* tabbar_np_normal@2x.png */; };
+		797273C19D330426A87A008194D8BCF9 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D50A327ADE0CDF84F10C3C1F6E0EB9 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA90648064666E50F72B53FE225BFA6 /* Pods-FunkyFMMain_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D152A0230C88F1BA5346EF96014DECA3 /* Pods-FunkyFMMain_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D6354981ED94C825DED4F630215E9E7 /* HSTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B028472C4DAAB523711E17D693748C12 /* HSTabBarController.m */; };
+		7E56DD5115C3C9283979ADA4170E86C6 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B7CE199572991EE6D4A1C19371D3C3 /* CALayer+PauseAimate.m */; };
+		7FCC56594DC907307CD7BDBA1F728E31 /* MainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = D59FF27B2769EC5AAF4B1BF66DAA4BAD /* MainModuleAPI.m */; };
+		87E7A1C2AA1EDF7F75E9EB514E64EF15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */; };
+		8F32D37F0FC20D781F899D04D48A43BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */; };
+		94482E91165F68811E569EAA7EFE8277 /* HSTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = FFC2AE8C43F88535D164F08B38154694 /* HSTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DCE44200C3823B27B7CF7C5B73AD986 /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 281D5DDBC81F61049B63FA264FF99AC0 /* tabbar_np_shadow@2x.png */; };
+		A65E6DEF5649ABBCA75851A2B9673B92 /* tabbar_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F59D2887FA17EDE6D5A86397F0CFF37 /* tabbar_bg@3x.png */; };
+		B67E1BED74050C281EB4F1A64EB4AE76 /* Pods-FunkyFMMain_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E516A8B12A27FF7BA1C9DA56C9655A7 /* Pods-FunkyFMMain_Tests-dummy.m */; };
+		BB33FB6ADE409153FA6E2B58E9B25398 /* UIImage+HSImage.h in Headers */ = {isa = PBXBuildFile; fileRef = D4EA27D7EB18B221BABCA7E0FFC7ECDB /* UIImage+HSImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF1A33D54E4CDBE11C48C2545437FC58 /* UIView+HSNib.m in Sources */ = {isa = PBXBuildFile; fileRef = A03389726867415F83E9691934BFD722 /* UIView+HSNib.m */; };
+		C97352BC4A01EFEE76937AFC4F7222E9 /* UIView+HSNib.h in Headers */ = {isa = PBXBuildFile; fileRef = A65922C12202FAD160B0AAA90D7EF5D4 /* UIView+HSNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CECD6E6245D5219F6CFA90CF7EC95D62 /* NSObject+HSBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = CB049D65F3139D7D4DA28929881662EF /* NSObject+HSBundle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1BFE91444C0A7ABA4F243A132E62FCB /* Pods-FunkyFMMain_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCB9218B9D2D1BF799130A45E5ADDCB /* Pods-FunkyFMMain_Example-dummy.m */; };
+		D3CAB8869416A621676AA94D89C2FAD4 /* FunkyFMBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01077CD4FADF5B7EA66DB0EE995B6464 /* FunkyFMBase.framework */; };
+		E586B30E2D988415DB633C3BD138B062 /* UIImage+HSImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B1472BC61BF6470EB4A6504D7816C709 /* UIImage+HSImage.m */; };
+		E786E326E0ED12FC1BD10E4F8C2EF65E /* UIView+HSLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B797BF90F360E73CF6B9533E7DB0A3CA /* UIView+HSLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF9C9F1EA0A0D711B3760F716962E45 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF485544C10C3C0FD0C31F876B1DD6A9 /* tabbar_np_playshadow@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62381CBC2B836D9344B5C4DA3DF87318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7333837BBF63A80DD1C0C8BB2AD63AA0;
+			remoteInfo = FunkyFMBase;
+		};
+		6E7B2A9F92A08413106C1F118BA70EDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7333837BBF63A80DD1C0C8BB2AD63AA0;
+			remoteInfo = FunkyFMBase;
+		};
+		B8E6E16BA9C1CDA3BF0752179564BDF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A161301D1805E35F40352AAD6DBDE8C5;
+			remoteInfo = "FunkyFMMain-FunkyFMMain";
+		};
+		EBA45CC7EBBD9AE9553D8163B0A413DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50BC184D0D08CDED002D30CA14711129;
+			remoteInfo = FunkyFMMain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002619D7C2AF616E923AFF0C27DFEAF3 /* FunkyFMBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkyFMBase.modulemap; sourceTree = "<group>"; };
+		01077CD4FADF5B7EA66DB0EE995B6464 /* FunkyFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FunkyFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		037685D12B62CF655B511E69D4C53402 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		142C3519FD0E3F9EB8DE85E088F7B01A /* FunkyFMBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkyFMBase-dummy.m"; sourceTree = "<group>"; };
+		1861B76D45176161B4487C21E52B8F56 /* HSNavigationBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSNavigationBar.m; sourceTree = "<group>"; };
+		194473CE09B468BF92F1CCF3439D62AB /* HSMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSMiddleView.h; sourceTree = "<group>"; };
+		1BC3BFBD0002218E9DEC61F40A46E99F /* HSMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = HSMiddleView.xib; sourceTree = "<group>"; };
+		1C9122464CCFF9B095E620DC5B52B98C /* Pods-FunkyFMMain_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkyFMMain_Example.modulemap"; sourceTree = "<group>"; };
+		27B7CE199572991EE6D4A1C19371D3C3 /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "FunkyFMBase/Classes/Category/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		281D5DDBC81F61049B63FA264FF99AC0 /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
+		36028B506D7D843EC1B838DC07DAA95F /* Pods_FunkyFMMain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyFMMain_Example.framework; path = "Pods-FunkyFMMain_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E516A8B12A27FF7BA1C9DA56C9655A7 /* Pods-FunkyFMMain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkyFMMain_Tests-dummy.m"; sourceTree = "<group>"; };
+		3E5AFCFF916D3DE6197A9164DDEA3B1F /* FunkyFMBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMBase-umbrella.h"; sourceTree = "<group>"; };
+		3FCB9218B9D2D1BF799130A45E5ADDCB /* Pods-FunkyFMMain_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FunkyFMMain_Example-dummy.m"; sourceTree = "<group>"; };
+		419AD6D2539715333C621A5A40D87423 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4206D4F1D3FF39B38D757A54FAFD4B9F /* tabbar_np_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_normal@3x.png"; sourceTree = "<group>"; };
+		50AE8C22FAB3B7F79A4F1EF7C40D5AEC /* HSNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSNavigationController.m; sourceTree = "<group>"; };
+		50FA809C2B93BA54CA5A23B38A909B38 /* Pods-FunkyFMMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		56507386CFD208251A2A5214D1489C0F /* Pods-FunkyFMMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMMain_Example.release.xcconfig"; sourceTree = "<group>"; };
+		56A609DC4F1D74D4DD7E8D02558802F5 /* FunkyFMBase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkyFMBase.xcconfig; sourceTree = "<group>"; };
+		582BC3AC2DAF066103CD4E931839CA69 /* Pods-FunkyFMMain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMMain_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5D06CBBF2478F085B84FCB85DCE01306 /* HSMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSMiddleView.m; sourceTree = "<group>"; };
+		5EF2A350BA57836E9EFCB4010657F11C /* tabbar_np_loop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_loop@3x.png"; sourceTree = "<group>"; };
+		61D238C4D6FE89BC63ACCC63E17DA913 /* FunkyFMMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = FunkyFMMain.modulemap; sourceTree = "<group>"; };
+		63DB1BD7BBA7EFCE831D7A2D8B660BD6 /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_bg@2x.png"; sourceTree = "<group>"; };
+		687022A83831AC61B58A9BE7DC350B21 /* ResourceBundle-FunkyFMMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FunkyFMMain-Info.plist"; sourceTree = "<group>"; };
+		6B0052A61012118E001FE2FE8AE0B68B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		700424A8FF35AE7D009AEE29D9E94883 /* Pods-FunkyFMMain_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkyFMMain_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		742337E8C92C36A686D3D0018BC3914F /* header_default@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "header_default@2x.png"; sourceTree = "<group>"; };
+		7B12C44151F8F6281D1498C08457405B /* Pods-FunkyFMMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FunkyFMMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1FEB87520D37C130F87D806D1781E5 /* FunkyFMBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMBase-prefix.pch"; sourceTree = "<group>"; };
+		81A75E70E1B94F10E4C0376662DA0621 /* tabbar_np_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_play@3x.png"; sourceTree = "<group>"; };
+		825D9A5A417D1808F69C5B13F0195A66 /* HSTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSTabBar.h; sourceTree = "<group>"; };
+		85588EC74B8D08136ECD6CBD595AAFE4 /* Pods-FunkyFMMain_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMMain_Example-resources.sh"; sourceTree = "<group>"; };
+		85B27E01FE7CD158DF785B7D77F6FE72 /* HSNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSNavigationController.h; sourceTree = "<group>"; };
+		8A9530E8F407348905BFAE222AD8C9F4 /* Pods-FunkyFMMain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkyFMMain_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8F59D2887FA17EDE6D5A86397F0CFF37 /* tabbar_bg@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_bg@3x.png"; sourceTree = "<group>"; };
+		9077A8680A2504065882E1819C6A43A0 /* Pods-FunkyFMMain_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMMain_Example-frameworks.sh"; sourceTree = "<group>"; };
+		92C2613BD90794E89854B1D81578B257 /* FunkyFMMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMMain-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D50A327ADE0CDF84F10C3C1F6E0EB9 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "FunkyFMBase/Classes/Category/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		A03389726867415F83E9691934BFD722 /* UIView+HSNib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HSNib.m"; path = "FunkyFMBase/Classes/Category/UIView+HSNib.m"; sourceTree = "<group>"; };
+		A3EA3D30442BB24B045A0F3441B32052 /* tabbar_np_playshadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_playshadow@3x.png"; sourceTree = "<group>"; };
+		A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A65922C12202FAD160B0AAA90D7EF5D4 /* UIView+HSNib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HSNib.h"; path = "FunkyFMBase/Classes/Category/UIView+HSNib.h"; sourceTree = "<group>"; };
+		ADA38FB3A5767096C0E4367888B8843F /* Pods_FunkyFMMain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FunkyFMMain_Tests.framework; path = "Pods-FunkyFMMain_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE4B1195768BD872D817F0FC7F20937 /* Pods-FunkyFMMain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FunkyFMMain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B028472C4DAAB523711E17D693748C12 /* HSTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSTabBarController.m; sourceTree = "<group>"; };
+		B1472BC61BF6470EB4A6504D7816C709 /* UIImage+HSImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+HSImage.m"; path = "FunkyFMBase/Classes/Category/UIImage+HSImage.m"; sourceTree = "<group>"; };
+		B578E562A62CC82811FFA2AFE4701ED2 /* HSNavigationBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSNavigationBar.h; sourceTree = "<group>"; };
+		B797BF90F360E73CF6B9533E7DB0A3CA /* UIView+HSLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+HSLayout.h"; path = "FunkyFMBase/Classes/Category/UIView+HSLayout.h"; sourceTree = "<group>"; };
+		B9A61AF23EBD26BC5498053E88F54E0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6F05C8D20117F89775FE898724B5E00 /* Pods-FunkyFMMain_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMMain_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CAE4EAEDF51BC3397CBB36DEDD7DAD07 /* HSTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HSTabBar.m; sourceTree = "<group>"; };
+		CB049D65F3139D7D4DA28929881662EF /* NSObject+HSBundle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+HSBundle.h"; path = "FunkyFMBase/Classes/Category/NSObject+HSBundle.h"; sourceTree = "<group>"; };
+		CBB673C99091086786C8DCB0ECD5C1B4 /* zxy_icon@2x.jpg */ = {isa = PBXFileReference; includeInIndex = 1; path = "zxy_icon@2x.jpg"; sourceTree = "<group>"; };
+		D152A0230C88F1BA5346EF96014DECA3 /* Pods-FunkyFMMain_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FunkyFMMain_Example-umbrella.h"; sourceTree = "<group>"; };
+		D178D901350BDDCE07630D17D55B3B78 /* NSObject+HSBundle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+HSBundle.m"; path = "FunkyFMBase/Classes/Category/NSObject+HSBundle.m"; sourceTree = "<group>"; };
+		D4EA27D7EB18B221BABCA7E0FFC7ECDB /* UIImage+HSImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+HSImage.h"; path = "FunkyFMBase/Classes/Category/UIImage+HSImage.h"; sourceTree = "<group>"; };
+		D59FF27B2769EC5AAF4B1BF66DAA4BAD /* MainModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainModuleAPI.m; sourceTree = "<group>"; };
+		D6E9933000BC9255EA813B2ECCF8D11A /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_play@2x.png"; sourceTree = "<group>"; };
+		DA6DE43573DFA756A7ACAE49E97DFFDA /* FunkyFMMain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FunkyFMMain.xcconfig; sourceTree = "<group>"; };
+		DBAAC6FFDDD2C33517781733E76CF860 /* FunkyFMBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkyFMBase.framework; path = FunkyFMBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC40F8C1CC86EC5794F9F5D88F9D3FF9 /* FunkyFMMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FunkyFMMain-dummy.m"; sourceTree = "<group>"; };
+		DE64D39AC1A90B6F587069808C08F406 /* FunkyFMMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FunkyFMMain.framework; path = FunkyFMMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A94B592BF1B7B855E006B53750BE13 /* MainModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainModuleAPI.h; sourceTree = "<group>"; };
+		E3DE5576B68A408B726338DBE3DFE863 /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
+		E563666931D72B99F963DFDBB2BCF63B /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
+		EF485544C10C3C0FD0C31F876B1DD6A9 /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
+		F16ED45DC505D6901FBFDC2B8F3AFF33 /* FunkyFMMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FunkyFMMain-prefix.pch"; sourceTree = "<group>"; };
+		F1ACBC70966962CCBBFF0B645AAD78CD /* tabbar_np_shadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "tabbar_np_shadow@3x.png"; sourceTree = "<group>"; };
+		F271F536178443AA9165AB985CA5E358 /* FunkyFMMain.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FunkyFMMain.bundle; path = FunkyFMMain.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5DCC53818337141ED78A40A9A536091 /* Pods-FunkyFMMain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-FunkyFMMain_Tests.modulemap"; sourceTree = "<group>"; };
+		FC2C5FC70D10B7C3509FC67A132C7410 /* Pods-FunkyFMMain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkyFMMain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FCA32EDCC00BB2CEEF94EA6B91236A48 /* Pods-FunkyFMMain_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FunkyFMMain_Tests-resources.sh"; sourceTree = "<group>"; };
+		FDC0EE6F419F5D4666D588BE145B407B /* UIView+HSLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+HSLayout.m"; path = "FunkyFMBase/Classes/Category/UIView+HSLayout.m"; sourceTree = "<group>"; };
+		FE06EFFA70DEEF970AC6B4E9CEF76990 /* Pods-FunkyFMMain_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FunkyFMMain_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFC2AE8C43F88535D164F08B38154694 /* HSTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HSTabBarController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BF587D66908966210B4F151E526313 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F32D37F0FC20D781F899D04D48A43BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18A7846A46887A016AEB5337B8556496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87E7A1C2AA1EDF7F75E9EB514E64EF15 /* Foundation.framework in Frameworks */,
+				D3CAB8869416A621676AA94D89C2FAD4 /* FunkyFMBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E33B07278AA4268FA1B658728070750 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2364F1E024AC2C9CDC89987286AB6082 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBA088D49646F0EEAC92307A5182F76 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B64C382016BBDF627BAD7F00186A2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D80F98C429CAB784976C607C9AF9E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FE2A298FF00A719ACDC456BD88D082 /* FunkyFMBase */ = {
+			isa = PBXGroup;
+			children = (
+				AE4B42A4DA6BE80F31317A13A944C7B5 /* Category */,
+				81908722A7F4D2AFEF79DCBE33A25AE9 /* Support Files */,
+			);
+			name = FunkyFMBase;
+			path = FunkyFMBase;
+			sourceTree = "<group>";
+		};
+		15FF07D0DD712FC401EE736C62FBED47 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				194473CE09B468BF92F1CCF3439D62AB /* HSMiddleView.h */,
+				5D06CBBF2478F085B84FCB85DCE01306 /* HSMiddleView.m */,
+				1BC3BFBD0002218E9DEC61F40A46E99F /* HSMiddleView.xib */,
+				B578E562A62CC82811FFA2AFE4701ED2 /* HSNavigationBar.h */,
+				1861B76D45176161B4487C21E52B8F56 /* HSNavigationBar.m */,
+				825D9A5A417D1808F69C5B13F0195A66 /* HSTabBar.h */,
+				CAE4EAEDF51BC3397CBB36DEDD7DAD07 /* HSTabBar.m */,
+			);
+			name = View;
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D1EF0A334FBC4D6AC16921F42A22DF5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A423D8AA801BC820A9D8BAEA91D7AC5E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		524EA334C4755E05F3984E7FDBBA4778 /* Pods-FunkyFMMain_Example */ = {
+			isa = PBXGroup;
+			children = (
+				037685D12B62CF655B511E69D4C53402 /* Info.plist */,
+				1C9122464CCFF9B095E620DC5B52B98C /* Pods-FunkyFMMain_Example.modulemap */,
+				FE06EFFA70DEEF970AC6B4E9CEF76990 /* Pods-FunkyFMMain_Example-acknowledgements.markdown */,
+				700424A8FF35AE7D009AEE29D9E94883 /* Pods-FunkyFMMain_Example-acknowledgements.plist */,
+				3FCB9218B9D2D1BF799130A45E5ADDCB /* Pods-FunkyFMMain_Example-dummy.m */,
+				9077A8680A2504065882E1819C6A43A0 /* Pods-FunkyFMMain_Example-frameworks.sh */,
+				85588EC74B8D08136ECD6CBD595AAFE4 /* Pods-FunkyFMMain_Example-resources.sh */,
+				D152A0230C88F1BA5346EF96014DECA3 /* Pods-FunkyFMMain_Example-umbrella.h */,
+				7B12C44151F8F6281D1498C08457405B /* Pods-FunkyFMMain_Example.debug.xcconfig */,
+				56507386CFD208251A2A5214D1489C0F /* Pods-FunkyFMMain_Example.release.xcconfig */,
+			);
+			name = "Pods-FunkyFMMain_Example";
+			path = "Target Support Files/Pods-FunkyFMMain_Example";
+			sourceTree = "<group>";
+		};
+		59D0F632AAA6580C2D623CA0CF17D9AE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				703505C1FDAAB4C6CC50180781E24450 /* Controller */,
+				AB929C78B27C4C1D360B1E5AD4065C78 /* PublicAPI */,
+				15FF07D0DD712FC401EE736C62FBED47 /* View */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60F7BB2AF1D2A74EB4A51D7209DC9E71 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				61D238C4D6FE89BC63ACCC63E17DA913 /* FunkyFMMain.modulemap */,
+				DA6DE43573DFA756A7ACAE49E97DFFDA /* FunkyFMMain.xcconfig */,
+				DC40F8C1CC86EC5794F9F5D88F9D3FF9 /* FunkyFMMain-dummy.m */,
+				F16ED45DC505D6901FBFDC2B8F3AFF33 /* FunkyFMMain-prefix.pch */,
+				92C2613BD90794E89854B1D81578B257 /* FunkyFMMain-umbrella.h */,
+				6B0052A61012118E001FE2FE8AE0B68B /* Info.plist */,
+				687022A83831AC61B58A9BE7DC350B21 /* ResourceBundle-FunkyFMMain-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FunkyFMMain";
+			sourceTree = "<group>";
+		};
+		703505C1FDAAB4C6CC50180781E24450 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85B27E01FE7CD158DF785B7D77F6FE72 /* HSNavigationController.h */,
+				50AE8C22FAB3B7F79A4F1EF7C40D5AEC /* HSNavigationController.m */,
+				FFC2AE8C43F88535D164F08B38154694 /* HSTabBarController.h */,
+				B028472C4DAAB523711E17D693748C12 /* HSTabBarController.m */,
+			);
+			name = Controller;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E7F8236443FB76CF1010EA11A637B9F6 /* Development Pods */,
+				ABBD27317913633B3E1911C0F651E34A /* Frameworks */,
+				F38422C98F770FD1B29A97F3A29BFBC7 /* Pods */,
+				E0B04B3CBA51D1691FD8CC6A8449194E /* Products */,
+				D23C771950BEF19F34E0D24009DABE79 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81908722A7F4D2AFEF79DCBE33A25AE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				002619D7C2AF616E923AFF0C27DFEAF3 /* FunkyFMBase.modulemap */,
+				56A609DC4F1D74D4DD7E8D02558802F5 /* FunkyFMBase.xcconfig */,
+				142C3519FD0E3F9EB8DE85E088F7B01A /* FunkyFMBase-dummy.m */,
+				7C1FEB87520D37C130F87D806D1781E5 /* FunkyFMBase-prefix.pch */,
+				3E5AFCFF916D3DE6197A9164DDEA3B1F /* FunkyFMBase-umbrella.h */,
+				B9A61AF23EBD26BC5498053E88F54E0F /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FunkyFMBase";
+			sourceTree = "<group>";
+		};
+		8D9601944B1EC175D95FE3795EF6BD1D /* FunkyFMMain */ = {
+			isa = PBXGroup;
+			children = (
+				926A00878F7DBE1E8D473E6FD4501920 /* FunkyFMMain */,
+				9A4F609C79E3A1C626570BA2C9422ADB /* Resources */,
+				60F7BB2AF1D2A74EB4A51D7209DC9E71 /* Support Files */,
+			);
+			name = FunkyFMMain;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		926A00878F7DBE1E8D473E6FD4501920 /* FunkyFMMain */ = {
+			isa = PBXGroup;
+			children = (
+				59D0F632AAA6580C2D623CA0CF17D9AE /* Classes */,
+			);
+			name = FunkyFMMain;
+			path = FunkyFMMain;
+			sourceTree = "<group>";
+		};
+		9A4F609C79E3A1C626570BA2C9422ADB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E15E6A5F1C0069EC3055A37D9549E5CF /* FunkyFMMain */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A0E7BE2B0267F68FB5D09525945C2A96 /* Pods-FunkyFMMain_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				419AD6D2539715333C621A5A40D87423 /* Info.plist */,
+				F5DCC53818337141ED78A40A9A536091 /* Pods-FunkyFMMain_Tests.modulemap */,
+				FC2C5FC70D10B7C3509FC67A132C7410 /* Pods-FunkyFMMain_Tests-acknowledgements.markdown */,
+				ADE4B1195768BD872D817F0FC7F20937 /* Pods-FunkyFMMain_Tests-acknowledgements.plist */,
+				3E516A8B12A27FF7BA1C9DA56C9655A7 /* Pods-FunkyFMMain_Tests-dummy.m */,
+				C6F05C8D20117F89775FE898724B5E00 /* Pods-FunkyFMMain_Tests-frameworks.sh */,
+				FCA32EDCC00BB2CEEF94EA6B91236A48 /* Pods-FunkyFMMain_Tests-resources.sh */,
+				8A9530E8F407348905BFAE222AD8C9F4 /* Pods-FunkyFMMain_Tests-umbrella.h */,
+				50FA809C2B93BA54CA5A23B38A909B38 /* Pods-FunkyFMMain_Tests.debug.xcconfig */,
+				582BC3AC2DAF066103CD4E931839CA69 /* Pods-FunkyFMMain_Tests.release.xcconfig */,
+			);
+			name = "Pods-FunkyFMMain_Tests";
+			path = "Target Support Files/Pods-FunkyFMMain_Tests";
+			sourceTree = "<group>";
+		};
+		AB929C78B27C4C1D360B1E5AD4065C78 /* PublicAPI */ = {
+			isa = PBXGroup;
+			children = (
+				E2A94B592BF1B7B855E006B53750BE13 /* MainModuleAPI.h */,
+				D59FF27B2769EC5AAF4B1BF66DAA4BAD /* MainModuleAPI.m */,
+			);
+			name = PublicAPI;
+			path = PublicAPI;
+			sourceTree = "<group>";
+		};
+		ABBD27317913633B3E1911C0F651E34A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01077CD4FADF5B7EA66DB0EE995B6464 /* FunkyFMBase.framework */,
+				1D1EF0A334FBC4D6AC16921F42A22DF5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE4B42A4DA6BE80F31317A13A944C7B5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				93D50A327ADE0CDF84F10C3C1F6E0EB9 /* CALayer+PauseAimate.h */,
+				27B7CE199572991EE6D4A1C19371D3C3 /* CALayer+PauseAimate.m */,
+				CB049D65F3139D7D4DA28929881662EF /* NSObject+HSBundle.h */,
+				D178D901350BDDCE07630D17D55B3B78 /* NSObject+HSBundle.m */,
+				D4EA27D7EB18B221BABCA7E0FFC7ECDB /* UIImage+HSImage.h */,
+				B1472BC61BF6470EB4A6504D7816C709 /* UIImage+HSImage.m */,
+				B797BF90F360E73CF6B9533E7DB0A3CA /* UIView+HSLayout.h */,
+				FDC0EE6F419F5D4666D588BE145B407B /* UIView+HSLayout.m */,
+				A65922C12202FAD160B0AAA90D7EF5D4 /* UIView+HSNib.h */,
+				A03389726867415F83E9691934BFD722 /* UIView+HSNib.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		D23C771950BEF19F34E0D24009DABE79 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				524EA334C4755E05F3984E7FDBBA4778 /* Pods-FunkyFMMain_Example */,
+				A0E7BE2B0267F68FB5D09525945C2A96 /* Pods-FunkyFMMain_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA9CE3DA1A686AA4746E0599DAA165F2 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				742337E8C92C36A686D3D0018BC3914F /* header_default@2x.png */,
+				63DB1BD7BBA7EFCE831D7A2D8B660BD6 /* tabbar_bg@2x.png */,
+				8F59D2887FA17EDE6D5A86397F0CFF37 /* tabbar_bg@3x.png */,
+				E563666931D72B99F963DFDBB2BCF63B /* tabbar_np_loop@2x.png */,
+				5EF2A350BA57836E9EFCB4010657F11C /* tabbar_np_loop@3x.png */,
+				E3DE5576B68A408B726338DBE3DFE863 /* tabbar_np_normal@2x.png */,
+				4206D4F1D3FF39B38D757A54FAFD4B9F /* tabbar_np_normal@3x.png */,
+				D6E9933000BC9255EA813B2ECCF8D11A /* tabbar_np_play@2x.png */,
+				81A75E70E1B94F10E4C0376662DA0621 /* tabbar_np_play@3x.png */,
+				EF485544C10C3C0FD0C31F876B1DD6A9 /* tabbar_np_playshadow@2x.png */,
+				A3EA3D30442BB24B045A0F3441B32052 /* tabbar_np_playshadow@3x.png */,
+				281D5DDBC81F61049B63FA264FF99AC0 /* tabbar_np_shadow@2x.png */,
+				F1ACBC70966962CCBBFF0B645AAD78CD /* tabbar_np_shadow@3x.png */,
+				CBB673C99091086786C8DCB0ECD5C1B4 /* zxy_icon@2x.jpg */,
+			);
+			name = Assets;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E0B04B3CBA51D1691FD8CC6A8449194E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBAAC6FFDDD2C33517781733E76CF860 /* FunkyFMBase.framework */,
+				F271F536178443AA9165AB985CA5E358 /* FunkyFMMain.bundle */,
+				DE64D39AC1A90B6F587069808C08F406 /* FunkyFMMain.framework */,
+				36028B506D7D843EC1B838DC07DAA95F /* Pods_FunkyFMMain_Example.framework */,
+				ADA38FB3A5767096C0E4367888B8843F /* Pods_FunkyFMMain_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E15E6A5F1C0069EC3055A37D9549E5CF /* FunkyFMMain */ = {
+			isa = PBXGroup;
+			children = (
+				DA9CE3DA1A686AA4746E0599DAA165F2 /* Assets */,
+			);
+			name = FunkyFMMain;
+			path = FunkyFMMain;
+			sourceTree = "<group>";
+		};
+		E7F8236443FB76CF1010EA11A637B9F6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D9601944B1EC175D95FE3795EF6BD1D /* FunkyFMMain */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F38422C98F770FD1B29A97F3A29BFBC7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01FE2A298FF00A719ACDC456BD88D082 /* FunkyFMBase */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		11AD69B6399709725528567E919C23CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18775826852FC4752E97042CFCD93487 /* Pods-FunkyFMMain_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43789583E75BDE4CA40FC11D87E3E9DD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				797273C19D330426A87A008194D8BCF9 /* CALayer+PauseAimate.h in Headers */,
+				5AD555C4D354C506CB2974ED4BEDDDE9 /* FunkyFMBase-umbrella.h in Headers */,
+				CECD6E6245D5219F6CFA90CF7EC95D62 /* NSObject+HSBundle.h in Headers */,
+				BB33FB6ADE409153FA6E2B58E9B25398 /* UIImage+HSImage.h in Headers */,
+				E786E326E0ED12FC1BD10E4F8C2EF65E /* UIView+HSLayout.h in Headers */,
+				C97352BC4A01EFEE76937AFC4F7222E9 /* UIView+HSNib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB80E08A7170C5DE41E3D1738542DEB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA90648064666E50F72B53FE225BFA6 /* Pods-FunkyFMMain_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7ED6C2BAD8EC2C5B8C7FE6A437F70FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61EA37C7AF528426FCEFEEED609CC5F5 /* FunkyFMMain-umbrella.h in Headers */,
+				2F9D8B68E30EAA672D687853ED7208E7 /* HSMiddleView.h in Headers */,
+				20091EFCA24D8651870E8C184AF3E08B /* HSNavigationBar.h in Headers */,
+				4B50A53EF198386E0329DB8D7BC5452A /* HSNavigationController.h in Headers */,
+				2EC3870F03046F81094885DF2F3D3B88 /* HSTabBar.h in Headers */,
+				94482E91165F68811E569EAA7EFE8277 /* HSTabBarController.h in Headers */,
+				1F2D84E346A30C72BB20D4B4851FB3E5 /* MainModuleAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		457BD801C06814BA95F1A6E01CDD1545 /* Pods-FunkyFMMain_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52B98B8027120743248B792E7C1173ED /* Build configuration list for PBXNativeTarget "Pods-FunkyFMMain_Example" */;
+			buildPhases = (
+				4D73EEB52EA313E8DA2A2FA8B6863AF9 /* Sources */,
+				05BF587D66908966210B4F151E526313 /* Frameworks */,
+				CAB80E08A7170C5DE41E3D1738542DEB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6350A65938F9EECD5A45EC634E6E366 /* PBXTargetDependency */,
+				1FABAB8C43EBF5B8E1F79FB7525C48B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-FunkyFMMain_Example";
+			productName = "Pods-FunkyFMMain_Example";
+			productReference = 36028B506D7D843EC1B838DC07DAA95F /* Pods_FunkyFMMain_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50BC184D0D08CDED002D30CA14711129 /* FunkyFMMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247D13A71C0555D241B30FE0C8050DD9 /* Build configuration list for PBXNativeTarget "FunkyFMMain" */;
+			buildPhases = (
+				9C6A0F603397D3FF52CE97E197D2F703 /* Sources */,
+				18A7846A46887A016AEB5337B8556496 /* Frameworks */,
+				907531C8F6CF4A2CB137097004147F2E /* Resources */,
+				E7ED6C2BAD8EC2C5B8C7FE6A437F70FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A085FA91CAA1A657EA00F7931280DF7 /* PBXTargetDependency */,
+				086B2BCFCA2D48A2D9713F3747C2E200 /* PBXTargetDependency */,
+			);
+			name = FunkyFMMain;
+			productName = FunkyFMMain;
+			productReference = DE64D39AC1A90B6F587069808C08F406 /* FunkyFMMain.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7333837BBF63A80DD1C0C8BB2AD63AA0 /* FunkyFMBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BA689ACA0CE583BD1976F16C4E1A02 /* Build configuration list for PBXNativeTarget "FunkyFMBase" */;
+			buildPhases = (
+				A9B816A5D8C20FBF68D11993751C0279 /* Sources */,
+				2364F1E024AC2C9CDC89987286AB6082 /* Frameworks */,
+				43789583E75BDE4CA40FC11D87E3E9DD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FunkyFMBase;
+			productName = FunkyFMBase;
+			productReference = DBAAC6FFDDD2C33517781733E76CF860 /* FunkyFMBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A161301D1805E35F40352AAD6DBDE8C5 /* FunkyFMMain-FunkyFMMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F4B4D5506D16CE4A30DABD8BED2152E /* Build configuration list for PBXNativeTarget "FunkyFMMain-FunkyFMMain" */;
+			buildPhases = (
+				FF0CA096FE9A63C34113D570A3B79C73 /* Sources */,
+				1E33B07278AA4268FA1B658728070750 /* Frameworks */,
+				197D89EC9E582540C6C99F9A49544A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FunkyFMMain-FunkyFMMain";
+			productName = "FunkyFMMain-FunkyFMMain";
+			productReference = F271F536178443AA9165AB985CA5E358 /* FunkyFMMain.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B3A6818D73A16ED0D75F3750302AAC07 /* Pods-FunkyFMMain_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 985EE646A5E45EF599BA8135A7423384 /* Build configuration list for PBXNativeTarget "Pods-FunkyFMMain_Tests" */;
+			buildPhases = (
+				71DDDED5ADDB0035F97B991265C9087B /* Sources */,
+				8B64C382016BBDF627BAD7F00186A2D2 /* Frameworks */,
+				11AD69B6399709725528567E919C23CD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FunkyFMMain_Tests";
+			productName = "Pods-FunkyFMMain_Tests";
+			productReference = ADA38FB3A5767096C0E4367888B8843F /* Pods_FunkyFMMain_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E0B04B3CBA51D1691FD8CC6A8449194E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7333837BBF63A80DD1C0C8BB2AD63AA0 /* FunkyFMBase */,
+				50BC184D0D08CDED002D30CA14711129 /* FunkyFMMain */,
+				A161301D1805E35F40352AAD6DBDE8C5 /* FunkyFMMain-FunkyFMMain */,
+				457BD801C06814BA95F1A6E01CDD1545 /* Pods-FunkyFMMain_Example */,
+				B3A6818D73A16ED0D75F3750302AAC07 /* Pods-FunkyFMMain_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		197D89EC9E582540C6C99F9A49544A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C33DC3340269474493E0F57CB254D40 /* header_default@2x.png in Resources */,
+				00EFDC7F4591D280227F86B6947E3148 /* tabbar_bg@2x.png in Resources */,
+				A65E6DEF5649ABBCA75851A2B9673B92 /* tabbar_bg@3x.png in Resources */,
+				278B324F3FB001A48A02F47A416A9EC3 /* tabbar_np_loop@2x.png in Resources */,
+				1FA27B8002DE45EC779DA7EB422A14C9 /* tabbar_np_loop@3x.png in Resources */,
+				74C90B296E0EDFEC43E25521B3286301 /* tabbar_np_normal@2x.png in Resources */,
+				68F7E5CF09ED18FE1395EEC7D8D8A7EB /* tabbar_np_normal@3x.png in Resources */,
+				4CCEEE9D38237EB619E9C6231FF73ECD /* tabbar_np_play@2x.png in Resources */,
+				0F79036C1C436CD2BA7A1F72275CA183 /* tabbar_np_play@3x.png in Resources */,
+				EDF9C9F1EA0A0D711B3760F716962E45 /* tabbar_np_playshadow@2x.png in Resources */,
+				2DD11C88765869E7D1CE17EE7F4178D0 /* tabbar_np_playshadow@3x.png in Resources */,
+				9DCE44200C3823B27B7CF7C5B73AD986 /* tabbar_np_shadow@2x.png in Resources */,
+				47907D55B1FA8DA19577E93E037E946E /* tabbar_np_shadow@3x.png in Resources */,
+				110DFA517F01D8018FCC39A120AA7D7B /* zxy_icon@2x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		907531C8F6CF4A2CB137097004147F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EA52D2C4D2B22CC7422F59BAE7B20B8 /* FunkyFMMain.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D73EEB52EA313E8DA2A2FA8B6863AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1BFE91444C0A7ABA4F243A132E62FCB /* Pods-FunkyFMMain_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71DDDED5ADDB0035F97B991265C9087B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B67E1BED74050C281EB4F1A64EB4AE76 /* Pods-FunkyFMMain_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C6A0F603397D3FF52CE97E197D2F703 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2349B3BAA8BA74A4EED6092DEF0E0686 /* FunkyFMMain-dummy.m in Sources */,
+				24CB14A126D612E5538E81285A06B86F /* HSMiddleView.m in Sources */,
+				6DEB13FBF9D5DCDAE7EB5A5937B55D26 /* HSMiddleView.xib in Sources */,
+				17594A354D6A1C4D7611371FA5CC26F0 /* HSNavigationBar.m in Sources */,
+				022F1BF80481F7E78D1630A36E840685 /* HSNavigationController.m in Sources */,
+				5C73CAEF655F8E6A6507EAF910D3C4F4 /* HSTabBar.m in Sources */,
+				7D6354981ED94C825DED4F630215E9E7 /* HSTabBarController.m in Sources */,
+				7FCC56594DC907307CD7BDBA1F728E31 /* MainModuleAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B816A5D8C20FBF68D11993751C0279 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E56DD5115C3C9283979ADA4170E86C6 /* CALayer+PauseAimate.m in Sources */,
+				4568C543992955F4225DA9C9D32E645C /* FunkyFMBase-dummy.m in Sources */,
+				5C65BC561200DFB4FBD6EBE69385A345 /* NSObject+HSBundle.m in Sources */,
+				E586B30E2D988415DB633C3BD138B062 /* UIImage+HSImage.m in Sources */,
+				3DA3FCA3501829DFDCCAC962C99E1D25 /* UIView+HSLayout.m in Sources */,
+				BF1A33D54E4CDBE11C48C2545437FC58 /* UIView+HSNib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0CA096FE9A63C34113D570A3B79C73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		086B2BCFCA2D48A2D9713F3747C2E200 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FunkyFMMain-FunkyFMMain";
+			target = A161301D1805E35F40352AAD6DBDE8C5 /* FunkyFMMain-FunkyFMMain */;
+			targetProxy = B8E6E16BA9C1CDA3BF0752179564BDF9 /* PBXContainerItemProxy */;
+		};
+		1FABAB8C43EBF5B8E1F79FB7525C48B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkyFMMain;
+			target = 50BC184D0D08CDED002D30CA14711129 /* FunkyFMMain */;
+			targetProxy = EBA45CC7EBBD9AE9553D8163B0A413DC /* PBXContainerItemProxy */;
+		};
+		4A085FA91CAA1A657EA00F7931280DF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkyFMBase;
+			target = 7333837BBF63A80DD1C0C8BB2AD63AA0 /* FunkyFMBase */;
+			targetProxy = 6E7B2A9F92A08413106C1F118BA70EDF /* PBXContainerItemProxy */;
+		};
+		D6350A65938F9EECD5A45EC634E6E366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FunkyFMBase;
+			target = 7333837BBF63A80DD1C0C8BB2AD63AA0 /* FunkyFMBase */;
+			targetProxy = 62381CBC2B836D9344B5C4DA3DF87318 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05AC5586E6CE479B70FFF6FE623ADA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6DE43573DFA756A7ACAE49E97DFFDA /* FunkyFMMain.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FunkyFMMain";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FunkyFMMain/ResourceBundle-FunkyFMMain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FunkyFMMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1E4DA9501F94F13350FC935CC2A4C9AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A609DC4F1D74D4DD7E8D02558802F5 /* FunkyFMBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMBase/FunkyFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMBase/FunkyFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FunkyFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D3AF8E5AE8BF88DD5AB9A8E87770721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6DE43573DFA756A7ACAE49E97DFFDA /* FunkyFMMain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMMain/FunkyFMMain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMMain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMMain/FunkyFMMain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FunkyFMMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BD96D950B6A1B4BAD7E9D4514890F45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50FA809C2B93BA54CA5A23B38A909B38 /* Pods-FunkyFMMain_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMMain_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMMain_Tests/Pods-FunkyFMMain_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMMain_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DADD5DDC19510D2250C187D866854E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B12C44151F8F6281D1498C08457405B /* Pods-FunkyFMMain_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMMain_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMMain_Example/Pods-FunkyFMMain_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMMain_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		928505010B763BADDE0444226F99D87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582BC3AC2DAF066103CD4E931839CA69 /* Pods-FunkyFMMain_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMMain_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMMain_Tests/Pods-FunkyFMMain_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMMain_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		993A26FCF1DC5FD27F7CADD1A5F1548B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6DE43573DFA756A7ACAE49E97DFFDA /* FunkyFMMain.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FunkyFMMain";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FunkyFMMain/ResourceBundle-FunkyFMMain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FunkyFMMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A04510117A48E2D52955BBB109542B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56507386CFD208251A2A5214D1489C0F /* Pods-FunkyFMMain_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FunkyFMMain_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FunkyFMMain_Example/Pods-FunkyFMMain_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_FunkyFMMain_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D1C10F1D149F4547F1D35565C6A2FAE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6DE43573DFA756A7ACAE49E97DFFDA /* FunkyFMMain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMMain/FunkyFMMain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMMain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMMain/FunkyFMMain.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FunkyFMMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED6BC2CE615AC49C8A92A8C19A8899D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56A609DC4F1D74D4DD7E8D02558802F5 /* FunkyFMBase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FunkyFMBase/FunkyFMBase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FunkyFMBase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FunkyFMBase/FunkyFMBase.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FunkyFMBase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247D13A71C0555D241B30FE0C8050DD9 /* Build configuration list for PBXNativeTarget "FunkyFMMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1C10F1D149F4547F1D35565C6A2FAE3 /* Debug */,
+				4D3AF8E5AE8BF88DD5AB9A8E87770721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F4B4D5506D16CE4A30DABD8BED2152E /* Build configuration list for PBXNativeTarget "FunkyFMMain-FunkyFMMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05AC5586E6CE479B70FFF6FE623ADA50 /* Debug */,
+				993A26FCF1DC5FD27F7CADD1A5F1548B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52B98B8027120743248B792E7C1173ED /* Build configuration list for PBXNativeTarget "Pods-FunkyFMMain_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DADD5DDC19510D2250C187D866854E6 /* Debug */,
+				A04510117A48E2D52955BBB109542B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BA689ACA0CE583BD1976F16C4E1A02 /* Build configuration list for PBXNativeTarget "FunkyFMBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E4DA9501F94F13350FC935CC2A4C9AF /* Debug */,
+				ED6BC2CE615AC49C8A92A8C19A8899D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		985EE646A5E45EF599BA8135A7423384 /* Build configuration list for PBXNativeTarget "Pods-FunkyFMMain_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BD96D950B6A1B4BAD7E9D4514890F45 /* Debug */,
+				928505010B763BADDE0444226F99D87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

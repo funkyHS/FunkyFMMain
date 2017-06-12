@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="t0J-cT-6EA" customClass="HSMiddleView">
+            <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FunkyFMMain.bundle/tabbar_np_shadow" translatesAutoresizingMaskIntoConstraints="NO" id="m1u-Wg-UEU">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FunkyFMMain.bundle/tabbar_np_normal" translatesAutoresizingMaskIntoConstraints="NO" id="Hva-gT-HVp">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FunkyFMMain.bundle/tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="olj-7D-flI">
+                    <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FunkyFMMain.bundle/zxy_icon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vpP-Qp-ZXY">
+                    <rect key="frame" x="11" y="11" width="43" height="43"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0W1-bn-VB9">
+                    <rect key="frame" x="10" y="10" width="45" height="45"/>
+                    <state key="normal" image="FunkyFMMain.bundle/tabbar_np_play"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="0W1-bn-VB9" firstAttribute="top" secondItem="t0J-cT-6EA" secondAttribute="top" constant="10" id="0bq-Gh-SGv"/>
+                <constraint firstAttribute="bottom" secondItem="Hva-gT-HVp" secondAttribute="bottom" id="6Ff-LP-05s"/>
+                <constraint firstItem="Hva-gT-HVp" firstAttribute="leading" secondItem="t0J-cT-6EA" secondAttribute="leading" id="7se-Zt-jsw"/>
+                <constraint firstItem="vpP-Qp-ZXY" firstAttribute="leading" secondItem="t0J-cT-6EA" secondAttribute="leading" constant="11" id="8Ao-cH-eSU"/>
+                <constraint firstItem="m1u-Wg-UEU" firstAttribute="leading" secondItem="t0J-cT-6EA" secondAttribute="leading" id="96K-FN-Fvn"/>
+                <constraint firstAttribute="trailing" secondItem="0W1-bn-VB9" secondAttribute="trailing" constant="10" id="9W3-jp-p4j"/>
+                <constraint firstAttribute="bottom" secondItem="0W1-bn-VB9" secondAttribute="bottom" constant="10" id="JrW-05-Do5"/>
+                <constraint firstAttribute="trailing" secondItem="Hva-gT-HVp" secondAttribute="trailing" id="MSq-AX-fFC"/>
+                <constraint firstAttribute="trailing" secondItem="m1u-Wg-UEU" secondAttribute="trailing" id="NNi-IT-2ap"/>
+                <constraint firstAttribute="trailing" secondItem="olj-7D-flI" secondAttribute="trailing" id="TXf-O1-nOz"/>
+                <constraint firstAttribute="bottom" secondItem="m1u-Wg-UEU" secondAttribute="bottom" id="UFj-a1-0N1"/>
+                <constraint firstItem="m1u-Wg-UEU" firstAttribute="top" secondItem="t0J-cT-6EA" secondAttribute="top" id="UrQ-sz-Xys"/>
+                <constraint firstItem="olj-7D-flI" firstAttribute="leading" secondItem="t0J-cT-6EA" secondAttribute="leading" id="VIt-f8-nDk"/>
+                <constraint firstItem="olj-7D-flI" firstAttribute="top" secondItem="t0J-cT-6EA" secondAttribute="top" id="X3T-6i-AVh"/>
+                <constraint firstItem="0W1-bn-VB9" firstAttribute="leading" secondItem="t0J-cT-6EA" secondAttribute="leading" constant="10" id="Zpm-Qr-jUL"/>
+                <constraint firstAttribute="bottom" secondItem="vpP-Qp-ZXY" secondAttribute="bottom" constant="11" id="Zrj-Gn-Ced"/>
+                <constraint firstAttribute="bottom" secondItem="olj-7D-flI" secondAttribute="bottom" id="ccU-gd-TSR"/>
+                <constraint firstItem="Hva-gT-HVp" firstAttribute="top" secondItem="t0J-cT-6EA" secondAttribute="top" id="ctF-tS-cLs"/>
+                <constraint firstItem="vpP-Qp-ZXY" firstAttribute="top" secondItem="t0J-cT-6EA" secondAttribute="top" constant="11" id="nTf-hM-HUD"/>
+                <constraint firstAttribute="trailing" secondItem="vpP-Qp-ZXY" secondAttribute="trailing" constant="11" id="rSh-gx-zsG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="middleImageView" destination="vpP-Qp-ZXY" id="Axs-Gk-WHG"/>
+                <outlet property="playBtn" destination="0W1-bn-VB9" id="Gxw-bA-hUm"/>
+            </connections>
+            <point key="canvasLocation" x="-21.5" y="-114.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="FunkyFMMain.bundle/tabbar_np_normal" width="16" height="16"/>
+        <image name="FunkyFMMain.bundle/tabbar_np_play" width="16" height="16"/>
+        <image name="FunkyFMMain.bundle/tabbar_np_playshadow" width="16" height="16"/>
+        <image name="FunkyFMMain.bundle/tabbar_np_shadow" width="16" height="16"/>
+        <image name="FunkyFMMain.bundle/zxy_icon.jpg" width="16" height="16"/>
+    </resources>
+</document>

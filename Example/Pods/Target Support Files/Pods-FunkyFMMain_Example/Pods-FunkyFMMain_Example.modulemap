@@ -1,0 +1,6 @@
+framework module Pods_FunkyFMMain_Example {
+  umbrella header "Pods-FunkyFMMain_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

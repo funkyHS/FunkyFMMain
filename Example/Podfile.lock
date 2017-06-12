@@ -1,0 +1,19 @@
+PODS:
+  - FunkyFMBase/Category (0.1.0)
+  - FunkyFMMain (0.1.0):
+    - FunkyFMBase/Category
+
+DEPENDENCIES:
+  - FunkyFMMain (from `../`)
+
+EXTERNAL SOURCES:
+  FunkyFMMain:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FunkyFMBase: 238f94e4e930f6ae00d5a37c7a167785509a8d9f
+  FunkyFMMain: c448530b854e9e9dc27f1a63a9e8ba48ca366665
+
+PODFILE CHECKSUM: 7249e051ba55527f36db16c70c5860903b1ce2d5
+
+COCOAPODS: 1.2.1
